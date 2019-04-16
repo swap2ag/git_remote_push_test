@@ -1,4 +1,4 @@
-first commit mesage
+first commit message
 created README.md file on remote
 Created file2.txt on local and simply did git pull without staging or committing any changes-> No problem (git pull just worked fine :) )
 
@@ -6,7 +6,7 @@ Again making changes on remote, and this time, going to create a different file 
 
 Again making changes on remote, and this time, going to create a different file and make changes to it and commit it in local -> Since the file changed was different, so merge was made at local and a commit was automatically done by git to reflect that merge operation.
 
-Now, 
+Now,
 Going to make changes to remote which is one commit behind local and then commit those changes. Then at local, trying to use git push origin master.      -> while pushing from local, it said that remote had some changes, and so need to first pull those changes. When I pulled the changes, since local had commit not which remote didn't have, so there was again a merge commit done at local.
 
 Now, need to push this merge commit to remote as well, so that both are in sync. Then I will commit this line at the remote. This operation completed successfully.
@@ -17,3 +17,4 @@ Now, Making changes in below line (in the next commit) after pulling upto curren
 
 
 Hi there!! This is a line being edited by both remote and local at the same time.....
+There was a conflict at the local while pulling as git could not automatically merge the changes, so wanted me to manually merge. I have retained the local's version and I am adding the current line now.
