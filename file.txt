@@ -14,3 +14,6 @@ Now, need to push this merge commit to remote as well, so that both are in sync.
 
 Now, Making changes in below line (in the next commit) after pulling upto current line in local.
 
+
+
+Hi there!! This is a line being edited by both remote and local at the same time.....
