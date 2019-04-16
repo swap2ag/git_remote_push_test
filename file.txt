@@ -1,1 +1,4 @@
 first commit mesage
+created README.md file on remote
+Created file2.txt on local and simply did git pull without staging or committing any changes
+Again making changes on remote, and this time, going to crate a different file and make changes to it and staging it in local
