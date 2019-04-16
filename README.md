@@ -12,6 +12,8 @@ If we push to remote, what needs to be done?
 For further details, see file.txt. It contains my procedure, observations and understanding about merge conflicts and detailed description of above scenario.
 
 I am editing this file and creating a new branch on remote, then going to make a pull request. Now, I have made the pull request and making changes on the same line so as to cause a merge conflict.
+The merge conflict was successful. It turns out that I can solve conflict by either using online editor or via command line by first fetching and then merging. Github gives exact commands to deal with this situation using command line.  
+The online editor lets you click on conflict resolved once you delete the <<<< and >>>> arrows.  
 ***
 # Things to check in future-
 1. Local only - when some  
