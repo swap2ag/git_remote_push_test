@@ -2,6 +2,9 @@ first commit mesage
 created README.md file on remote
 Created file2.txt on local and simply did git pull without staging or committing any changes-> No problem (git pull just worked fine :) )
 
-Again making changes on remote, and this time, going to crate a different file and make changes to it and staging it in local -> -> No problem (git pull just worked fine :) )
+Again making changes on remote, and this time, going to create a different file and make changes to it and staging it in local -> -> No problem (git pull just worked fine :) )
 
-Again making changes on remote, and this time, going to crate a different file and make changes to it and commit it in local -> Results yet to be known
+Again making changes on remote, and this time, going to create a different file and make changes to it and commit it in local -> Since the file changed was different, so merge was made at local and a commit was automatically done by git to reflect that merge operation.
+
+Now, 
+Going to make changes to remote which is one commit behind local and then commit those changes. Then at local, trying to use git push origin master.
